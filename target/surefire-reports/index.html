@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-test_automation" class="navigator-link">
+              <span class="suite-name border-passed">test_automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-test_automation" class="navigator-link ">
+                    <span>C:\Users\mrham\Maasud Laboratory Dropbox\Mir Masudur Rhaman\My PC (LAPTOP-PG9U9RD9)\Documents\SQL_QATekSolutions\MayBatch2021\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-test_automation" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-test_automation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-test_automation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-test_automation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-test_automation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-test_automation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-test_automation" class="hide-methods passed suite-test_automation"> (hide)</a> <!-- hide-methods passed suite-test_automation -->
+                      <a href="#" panel-name="suite-test_automation" class="show-methods passed suite-test_automation"> (show)</a> <!-- show-methods passed suite-test_automation -->
+                    </span>
+                    <div class="method-list-content passed suite-test_automation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.GetTestWithPathVariable" class="method navigator-link" hash-for-method="attemptToGetUserWithInvalidId">attemptToGetUserWithInvalidId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="automation_test.mortgage_calculator.CalculateMonthlyPayment" class="method navigator-link" hash-for-method="calculateMonthlyPayment">calculateMonthlyPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized" class="method navigator-link" hash-for-method="calculateMonthlyPayment">calculateMonthlyPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="automation_test.mortgage_calculator.CalculateRates" class="method navigator-link" hash-for-method="calculateRealApr">calculateRealApr</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized" class="method navigator-link" hash-for-method="calculateRealApr(200000, 15000, 3, 3.130%)">calculateRealApr(200000, 15000, 3, 3.130%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.SimplePostTest" class="method navigator-link" hash-for-method="createNewUser">createNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.SimpleDeleteTest" class="method navigator-link" hash-for-method="deleteSingleUsers">deleteSingleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.SimpleGetTest" class="method navigator-link" hash-for-method="getALLUsers">getALLUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.GetTestWithPathVariable" class="method navigator-link" hash-for-method="getSingleUser">getSingleUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.GetTestWithQueryParameter" class="method navigator-link" hash-for-method="getUsersWithQueryParameter">getUsersWithQueryParameter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.SimplePutTest" class="method navigator-link" hash-for-method="updateUserFields">updateUserFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="api_test.SimplePatchTest" class="method navigator-link" hash-for-method="updateUserSingleField">updateUserSingleField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_automation" title="automation_test.php_travel.ValidatePHPTravelWebTitle" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-test_automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-test_automation" class="panel test_automation">
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.GetTestWithQueryParameter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsersWithQueryParameter">
+                  </a> <!-- getUsersWithQueryParameter -->
+                  <span class="method-name">getUsersWithQueryParameter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMonthlyPayment">
+                  </a> <!-- calculateMonthlyPayment -->
+                  <span class="method-name">calculateMonthlyPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_test.mortgage_calculator.CalculateRates</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateRealApr">
+                  </a> <!-- calculateRealApr -->
+                  <span class="method-name">calculateRealApr</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.GetTestWithPathVariable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="attemptToGetUserWithInvalidId">
+                  </a> <!-- attemptToGetUserWithInvalidId -->
+                  <span class="method-name">attemptToGetUserWithInvalidId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSingleUser">
+                  </a> <!-- getSingleUser -->
+                  <span class="method-name">getSingleUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.SimplePutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserFields">
+                  </a> <!-- updateUserFields -->
+                  <span class="method-name">updateUserFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_test.php_travel.ValidatePHPTravelWebTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.SimpleDeleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteSingleUsers">
+                  </a> <!-- deleteSingleUsers -->
+                  <span class="method-name">deleteSingleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.SimplePatchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserSingleField">
+                  </a> <!-- updateUserSingleField -->
+                  <span class="method-name">updateUserSingleField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateRealApr(200000, 15000, 3, 3.130%)">
+                  </a> <!-- calculateRealApr(200000, 15000, 3, 3.130%) -->
+                  <span class="method-name">calculateRealApr</span>
+                  <span class="parameters">(200000, 15000, 3, 3.130%)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_test.mortgage_calculator.CalculateMonthlyPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="calculateMonthlyPayment">
+                  </a> <!-- calculateMonthlyPayment -->
+                  <span class="method-name">calculateMonthlyPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.SimplePostTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewUser">
+                  </a> <!-- createNewUser -->
+                  <span class="method-name">createNewUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+          <div class="suite-test_automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api_test.SimpleGetTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getALLUsers">
+                  </a> <!-- getALLUsers -->
+                  <span class="method-name">getALLUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-test_automation-class-passed -->
+        </div> <!-- panel test_automation -->
+        <div panel-name="test-xml-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mrham\Maasud Laboratory Dropbox\Mir Masudur Rhaman\My PC (LAPTOP-PG9U9RD9)\Documents\SQL_QATekSolutions\MayBatch2021\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;test_automation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;mortgage_calculator&quot; verbose=&quot;0&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;automation_test.mortgage_calculator_parameterized&quot;/&gt;
+      &lt;package name=&quot;automation_test.mortgage_calculator&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized&quot;/&gt;
+      &lt;class name=&quot;automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized&quot;/&gt;
+      &lt;class name=&quot;automation_test.mortgage_calculator.CalculateMonthlyPayment&quot;/&gt;
+      &lt;class name=&quot;automation_test.mortgage_calculator.CalculateRates&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- mortgage_calculator --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PHP_Travel&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation_test.php_travel.ValidatePHPTravelWebTitle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PHP_Travel --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;api_test&quot; verbose=&quot;0&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;api_test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;api_test.GetTestWithPathVariable&quot;/&gt;
+      &lt;class name=&quot;api_test.GetTestWithQueryParameter&quot;/&gt;
+      &lt;class name=&quot;api_test.SimpleDeleteTest&quot;/&gt;
+      &lt;class name=&quot;api_test.SimpleGetTest&quot;/&gt;
+      &lt;class name=&quot;api_test.SimplePatchTest&quot;/&gt;
+      &lt;class name=&quot;api_test.SimplePostTest&quot;/&gt;
+      &lt;class name=&quot;api_test.SimplePutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- api_test --&gt;
+&lt;/suite&gt; &lt;!-- test_automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for test_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">mortgage_calculator (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">PHP_Travel (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">api_test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for test_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for test_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_test_automation');
+function tableData_test_automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'calculateMonthlyPayment')
+data.setCell(0, 2, 'automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized')
+data.setCell(0, 3, 5171);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'calculateRealApr')
+data.setCell(1, 2, 'automation_test.mortgage_calculator.CalculateRates')
+data.setCell(1, 3, 2886);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'calculateRealApr')
+data.setCell(2, 2, 'automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized')
+data.setCell(2, 3, 2819);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'calculateMonthlyPayment')
+data.setCell(3, 2, 'automation_test.mortgage_calculator.CalculateMonthlyPayment')
+data.setCell(3, 3, 2351);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'attemptToGetUserWithInvalidId')
+data.setCell(4, 2, 'api_test.GetTestWithPathVariable')
+data.setCell(4, 3, 1118);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getSingleUser')
+data.setCell(5, 2, 'api_test.GetTestWithPathVariable')
+data.setCell(5, 3, 532);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'updateUserSingleField')
+data.setCell(6, 2, 'api_test.SimplePatchTest')
+data.setCell(6, 3, 385);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'updateUserFields')
+data.setCell(7, 2, 'api_test.SimplePutTest')
+data.setCell(7, 3, 316);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createNewUser')
+data.setCell(8, 2, 'api_test.SimplePostTest')
+data.setCell(8, 3, 301);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteSingleUsers')
+data.setCell(9, 2, 'api_test.SimpleDeleteTest')
+data.setCell(9, 3, 300);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getUsersWithQueryParameter')
+data.setCell(10, 2, 'api_test.GetTestWithQueryParameter')
+data.setCell(10, 3, 117);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getALLUsers')
+data.setCell(11, 2, 'api_test.SimpleGetTest')
+data.setCell(11, 3, 100);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyHomePageTitle')
+data.setCell(12, 2, 'automation_test.php_travel.ValidatePHPTravelWebTitle')
+data.setCell(12, 3, 8);
+window.suiteTableData['test_automation']= { tableData: data, tableDiv: 'times-div-test_automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-test_automation">
+              </div> <!-- times-div-test_automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for test_automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-test_automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInitializations</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">calculateMonthlyPayment</span>
+                <span class="method-start">3744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCleanUp</span>
+                <span class="method-start">8922 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_test.mortgage_calculator.CalculateMonthlyPayment</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInitializations</span>
+                <span class="method-start">9566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">calculateMonthlyPayment</span>
+                <span class="method-start">12001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCleanUp</span>
+                <span class="method-start">14356 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInitialization</span>
+                <span class="method-start">14995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">calculateRealApr(200000, 15000, 3, 3.130%)</span>
+                <span class="method-start">17227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCleanUp</span>
+                <span class="method-start">20049 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_test.mortgage_calculator.CalculateRates</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInitialization</span>
+                <span class="method-start">20671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">calculateRealApr</span>
+                <span class="method-start">23044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCleanUp</span>
+                <span class="method-start">25931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_test.php_travel.ValidatePHPTravelWebTitle</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">browserInitialization</span>
+                <span class="method-start">26593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">28457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCleanup</span>
+                <span class="method-start">28466 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.GetTestWithPathVariable</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">attemptToGetUserWithInvalidId</span>
+                <span class="method-start">29098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getSingleUser</span>
+                <span class="method-start">30216 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.GetTestWithQueryParameter</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getUsersWithQueryParameter</span>
+                <span class="method-start">30748 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.SimpleDeleteTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteSingleUsers</span>
+                <span class="method-start">30865 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.SimpleGetTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getALLUsers</span>
+                <span class="method-start">31181 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.SimplePatchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">updateUserSingleField</span>
+                <span class="method-start">31281 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.SimplePostTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createNewUser</span>
+                <span class="method-start">31666 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api_test.SimplePutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">updateUserFields</span>
+                <span class="method-start">31967 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

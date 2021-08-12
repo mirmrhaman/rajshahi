@@ -1,0 +1,248 @@
+2021-08-11 22:10:38.818 [main][3056] INFO  automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized - ---------- Start Test (CalculateMonthlyPayment) --------------
+2021-08-11 22:10:40.362 [main][4600] INFO  automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized - Browser is successfully initiated with the URL: https://www.mortgagecalculator.org/
+2021-08-11 22:10:40.608 [main][4846] INFO  utilities.SqlConnector - Connected to the PostgreSQL server successfully
+2021-08-11 22:10:40.620 [main][4858] INFO  automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized - ----------Start of new 1 Iteration----------
+2021-08-11 22:10:40.625 [main][4863] DEBUG page_object.Home - Entered Home price is: 300000
+2021-08-11 22:10:40.871 [main][5109] DEBUG page_object.Home - Entered Down Payment is: 60000
+2021-08-11 22:10:41.044 [main][5282] DEBUG page_object.Home - Clicked on the Down Payment in Dollar
+2021-08-11 22:10:41.111 [main][5349] DEBUG page_object.Home - Entered Loan amount is: 240000
+2021-08-11 22:10:41.249 [main][5487] DEBUG page_object.Home - Entered Interest Rate is: 3
+2021-08-11 22:10:41.397 [main][5635] DEBUG page_object.Home - Entered Loan term is: 30
+2021-08-11 22:10:41.517 [main][5755] DEBUG page_object.Home - Selected month is: Sep
+2021-08-11 22:10:41.619 [main][5857] DEBUG page_object.Home - Entered year is: 2021
+2021-08-11 22:10:41.761 [main][5999] DEBUG page_object.Home - Entered property tax is: 5000
+2021-08-11 22:10:41.895 [main][6133] DEBUG page_object.Home - Entered Pmi is: 0.5
+2021-08-11 22:10:42.023 [main][6261] DEBUG page_object.Home - Entered homeowner insurance is: 1000
+2021-08-11 22:10:42.149 [main][6387] DEBUG page_object.Home - Entered homeowner association is: 100
+2021-08-11 22:10:42.284 [main][6522] DEBUG page_object.Home - Selected Loan type is: FHA
+2021-08-11 22:10:42.377 [main][6615] DEBUG page_object.Home - Selected Buy or Refi option is: Buy
+2021-08-11 22:10:42.477 [main][6715] DEBUG page_object.Home - Clicked on the Calculate button
+2021-08-11 22:10:43.105 [main][7343] DEBUG page_object.Home - Validating total Monthly payment$1,611.85
+2021-08-11 22:10:43.131 [main][7369] INFO  automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized - ----------Start of new 2 Iteration----------
+2021-08-11 22:10:43.131 [main][7369] DEBUG page_object.Home - Entered Home price is: 500000
+2021-08-11 22:10:43.318 [main][7556] DEBUG page_object.Home - Entered Down Payment is: 100000
+2021-08-11 22:10:43.467 [main][7705] DEBUG page_object.Home - Clicked on the Down Payment in Dollar
+2021-08-11 22:10:43.543 [main][7781] DEBUG page_object.Home - Entered Loan amount is: 400000
+2021-08-11 22:10:43.683 [main][7921] DEBUG page_object.Home - Entered Interest Rate is: 3
+2021-08-11 22:10:43.814 [main][8052] DEBUG page_object.Home - Entered Loan term is: 30
+2021-08-11 22:10:43.987 [main][8225] DEBUG page_object.Home - Selected month is: Sep
+2021-08-11 22:10:44.085 [main][8323] DEBUG page_object.Home - Entered year is: 2021
+2021-08-11 22:10:44.235 [main][8473] DEBUG page_object.Home - Entered property tax is: 5000
+2021-08-11 22:10:44.389 [main][8627] DEBUG page_object.Home - Entered Pmi is: 0.5
+2021-08-11 22:10:44.550 [main][8788] DEBUG page_object.Home - Entered homeowner insurance is: 1000
+2021-08-11 22:10:44.696 [main][8934] DEBUG page_object.Home - Entered homeowner association is: 100
+2021-08-11 22:10:44.834 [main][9072] DEBUG page_object.Home - Selected Loan type is: FHA
+2021-08-11 22:10:44.905 [main][9143] DEBUG page_object.Home - Selected Buy or Refi option is: Buy
+2021-08-11 22:10:45.010 [main][9248] DEBUG page_object.Home - Clicked on the Calculate button
+2021-08-11 22:10:45.579 [main][9817] DEBUG page_object.Home - Validating total Monthly payment$2,286.42
+2021-08-11 22:10:46.251 [main][10489] INFO  automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized - Browser is closed
+2021-08-11 22:10:46.251 [main][10489] INFO  automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized - == End Test (CalculateMonthlyPayment ==)
+2021-08-11 22:10:47.256 [main][11494] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - ---------- Start Test (CalculateMonthlyPayment) --------------
+2021-08-11 22:10:48.685 [main][12923] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - Browser is successfully initiated with the URL: https://www.mortgagecalculator.org/
+2021-08-11 22:10:48.688 [main][12926] DEBUG page_object.Home - Entered Home price is: 300000
+2021-08-11 22:10:48.862 [main][13100] DEBUG page_object.Home - Entered Down Payment is: 60000
+2021-08-11 22:10:49.024 [main][13262] DEBUG page_object.Home - Clicked on the Down Payment in Dollar
+2021-08-11 22:10:49.094 [main][13332] DEBUG page_object.Home - Entered Loan amount is: 240000
+2021-08-11 22:10:49.232 [main][13470] DEBUG page_object.Home - Entered Interest Rate is: 3
+2021-08-11 22:10:49.361 [main][13599] DEBUG page_object.Home - Entered Loan term is: 30
+2021-08-11 22:10:49.491 [main][13729] DEBUG page_object.Home - Selected month is: Sep
+2021-08-11 22:10:49.581 [main][13819] DEBUG page_object.Home - Entered year is: 2021
+2021-08-11 22:10:49.711 [main][13949] DEBUG page_object.Home - Entered property tax is: 5000
+2021-08-11 22:10:49.846 [main][14084] DEBUG page_object.Home - Entered Pmi is: 0.5
+2021-08-11 22:10:49.967 [main][14205] DEBUG page_object.Home - Entered homeowner insurance is: 1000
+2021-08-11 22:10:50.108 [main][14346] DEBUG page_object.Home - Entered homeowner association is: 100
+2021-08-11 22:10:50.243 [main][14481] DEBUG page_object.Home - Selected Loan type is: FHA
+2021-08-11 22:10:50.341 [main][14579] DEBUG page_object.Home - Selected Buy or Refi option is: Buy
+2021-08-11 22:10:50.437 [main][14675] DEBUG page_object.Home - Clicked on the Calculate button
+2021-08-11 22:10:51.019 [main][15257] DEBUG page_object.Home - Validating total Monthly payment$1,611.85
+2021-08-11 22:10:51.680 [main][15918] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - Browser is closed
+2021-08-11 22:10:51.680 [main][15918] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - == End Test (CalculateMonthlyPayment ==)
+2021-08-11 22:10:52.672 [main][16910] INFO  automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized - ---------- Start Test (CalculateRates) --------------
+2021-08-11 22:10:53.911 [main][18149] INFO  automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized - Browser is successfully initiated with the URL: https://www.mortgagecalculator.org/
+2021-08-11 22:10:53.915 [main][18153] DEBUG page_object.NavigationBar - Mouse Hove to Rates Link in the navigation bar
+2021-08-11 22:10:54.115 [main][18353] DEBUG page_object.NavigationBar - Navigating to Real APR Page
+2021-08-11 22:10:55.042 [main][19280] DEBUG page_object.RealApr - Wait for the Real APR page to load
+2021-08-11 22:10:55.151 [main][19389] DEBUG page_object.RealApr - Entered Home price is: 200000
+2021-08-11 22:10:55.550 [main][19788] DEBUG page_object.RealApr - Clicked on Down Payment in Dollar
+2021-08-11 22:10:55.696 [main][19934] DEBUG page_object.RealApr - Entered down payment is: 15000
+2021-08-11 22:10:55.917 [main][20155] DEBUG page_object.RealApr - Entered Interest Rate is: 3
+2021-08-11 22:10:56.044 [main][20282] DEBUG page_object.RealApr - Clicked on Calculate button
+2021-08-11 22:10:56.731 [main][20969] DEBUG page_object.RealApr - Validation Real Apr rate is: 3.130%
+2021-08-11 22:10:57.356 [main][21594] INFO  automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized - == End Test (CalculateRates ==)
+2021-08-11 22:10:58.365 [main][22603] INFO  automation_test.mortgage_calculator.CalculateRates - ---------- Start Test (CalculateRates) --------------
+2021-08-11 22:10:59.728 [main][23966] INFO  automation_test.mortgage_calculator.CalculateRates - Browser is successfully initiated with the URL: https://www.mortgagecalculator.org/
+2021-08-11 22:10:59.731 [main][23969] DEBUG page_object.NavigationBar - Mouse Hove to Rates Link in the navigation bar
+2021-08-11 22:10:59.898 [main][24136] DEBUG page_object.NavigationBar - Navigating to Real APR Page
+2021-08-11 22:11:00.860 [main][25098] DEBUG page_object.RealApr - Wait for the Real APR page to load
+2021-08-11 22:11:00.973 [main][25211] DEBUG page_object.RealApr - Entered Home price is: 200000
+2021-08-11 22:11:01.336 [main][25574] DEBUG page_object.RealApr - Clicked on Down Payment in Dollar
+2021-08-11 22:11:01.463 [main][25701] DEBUG page_object.RealApr - Entered down payment is: 15000
+2021-08-11 22:11:01.709 [main][25947] DEBUG page_object.RealApr - Entered Interest Rate is: 3
+2021-08-11 22:11:01.869 [main][26107] DEBUG page_object.RealApr - Clicked on Calculate button
+2021-08-11 22:11:02.614 [main][26852] DEBUG page_object.RealApr - Validation Real Apr rate is: 3.130%
+2021-08-11 22:11:03.272 [main][27510] INFO  automation_test.mortgage_calculator.CalculateRates - Browser is closed
+2021-08-11 22:11:03.272 [main][27510] INFO  automation_test.mortgage_calculator.CalculateRates - == End Test (CalculateRates ==)
+2021-08-11 22:11:04.279 [main][28517] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - ---------- Start Test (ValidatePHPTravelWebTitle) --------------
+2021-08-11 22:11:05.140 [main][29378] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - Browser is successfully initiated with the URL: https://phptravels.com/demo/
+2021-08-11 22:11:05.780 [main][30018] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - Browser is closed
+2021-08-11 22:11:05.780 [main][30018] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - == End Test (ValidatePHPTravelWebTitle)==
+2021-08-11 22:11:05.783 [main][30021] INFO  api_test.GetTestWithPathVariable - ----------API Test: Attempt to retrieve User with invalid id
+2021-08-11 22:11:06.840 [main][31078] DEBUG api_test.GetTestWithPathVariable - {
+    
+}
+2021-08-11 22:11:06.901 [main][31139] INFO  api_test.GetTestWithPathVariable - ----------End Test: Attempt to retrieve User with invalid id
+2021-08-11 22:11:06.901 [main][31139] INFO  api_test.GetTestWithPathVariable - ----------API Test: Read(GET) Single User with Path Variable
+2021-08-11 22:11:07.201 [main][31439] DEBUG api_test.GetTestWithPathVariable - {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2021-08-11 22:11:07.433 [main][31671] INFO  api_test.GetTestWithPathVariable - ----------End Test: Read(GET) Single Users with Path Variable
+2021-08-11 22:11:07.433 [main][31671] INFO  api_test.GetTestWithQueryParameter - ----------API Test: Read(GET) ALL Users with Query Parameter
+2021-08-11 22:11:07.535 [main][31773] DEBUG api_test.GetTestWithQueryParameter - {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2021-08-11 22:11:07.550 [main][31788] INFO  api_test.GetTestWithQueryParameter - ----------End Test: Read(GET) All Users with Query Parameter
+2021-08-11 22:11:07.550 [main][31788] INFO  api_test.SimpleDeleteTest - ----------API Test: Delete Users
+2021-08-11 22:11:07.850 [main][32088] INFO  api_test.SimpleDeleteTest - ----------End Test: Delete Users
+2021-08-11 22:11:07.866 [main][32104] INFO  api_test.SimpleGetTest - ----------API Test: Read(GET) ALL Users
+2021-08-11 22:11:07.966 [main][32204] DEBUG api_test.SimpleGetTest - {
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "george.bluth@reqres.in",
+            "first_name": "George",
+            "last_name": "Bluth",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg"
+        },
+        {
+            "id": 2,
+            "email": "janet.weaver@reqres.in",
+            "first_name": "Janet",
+            "last_name": "Weaver",
+            "avatar": "https://reqres.in/img/faces/2-image.jpg"
+        },
+        {
+            "id": 3,
+            "email": "emma.wong@reqres.in",
+            "first_name": "Emma",
+            "last_name": "Wong",
+            "avatar": "https://reqres.in/img/faces/3-image.jpg"
+        },
+        {
+            "id": 4,
+            "email": "eve.holt@reqres.in",
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg"
+        },
+        {
+            "id": 5,
+            "email": "charles.morris@reqres.in",
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg"
+        },
+        {
+            "id": 6,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+2021-08-11 22:11:07.966 [main][32204] INFO  api_test.SimpleGetTest - ----------End Test: Read(GET) All Users
+2021-08-11 22:11:07.966 [main][32204] INFO  api_test.SimplePatchTest - ----------API Test: Update(Patch) User's single field
+2021-08-11 22:11:08.019 [main][32257] DEBUG api_test.SimplePatchTest - User Job: Director
+2021-08-11 22:11:08.351 [main][32589] DEBUG api_test.SimplePatchTest - {
+    "job": "Director",
+    "updatedAt": "2021-08-12T02:11:07.314Z"
+}
+2021-08-11 22:11:08.351 [main][32589] INFO  api_test.SimplePatchTest - ----------End Test: Update(Patch) User's single field
+2021-08-11 22:11:08.351 [main][32589] INFO  api_test.SimpleGetTest - ----------API Test: Create New Users
+2021-08-11 22:11:08.388 [main][32626] DEBUG api_test.SimpleGetTest - New user name: Thi Lind
+2021-08-11 22:11:08.388 [main][32626] DEBUG api_test.SimpleGetTest - User Job: Designer
+2021-08-11 22:11:08.636 [main][32874] DEBUG api_test.SimpleGetTest - {
+    "name": "Thi Lind",
+    "job": "Designer",
+    "id": "588",
+    "createdAt": "2021-08-12T02:11:07.610Z"
+}
+2021-08-11 22:11:08.652 [main][32890] INFO  api_test.SimpleGetTest - ----------End Test: Create New Users
+2021-08-11 22:11:08.652 [main][32890] INFO  api_test.SimplePutTest - ----------API Test: Update(PUT) Users fields
+2021-08-11 22:11:08.668 [main][32906] DEBUG api_test.SimplePutTest - New user name: Dr. Nathan Aufderhar
+2021-08-11 22:11:08.668 [main][32906] DEBUG api_test.SimplePutTest - User Job: Coordinator
+2021-08-11 22:11:08.968 [main][33206] DEBUG api_test.SimplePutTest - {
+    "name": "Dr. Nathan Aufderhar",
+    "job": "Coordinator",
+    "updatedAt": "2021-08-12T02:11:07.928Z"
+}
+2021-08-11 22:11:08.968 [main][33206] INFO  api_test.SimplePutTest - ----------End Test: Update(PUT) Users fields
