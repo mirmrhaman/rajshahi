@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.354 s - in TestSuite
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 3.675 s <<< FAILURE! - in TestSuite
+automation_test.mortgage_calculator.CalculateRates.browserInitialization  Time elapsed: 2.409 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at automation_test.mortgage_calculator.CalculateRates.browserInitialization(CalculateRates.java:25)
+
+automation_test.mortgage_calculator.CalculateMonthlyPayment.browserInitializations  Time elapsed: 1.108 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at automation_test.mortgage_calculator.CalculateMonthlyPayment.browserInitializations(CalculateMonthlyPayment.java:29)
+

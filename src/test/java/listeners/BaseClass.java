@@ -2,6 +2,7 @@ package listeners;
 
 import command_providers.ActOn;
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -11,11 +12,10 @@ import utilities.ReadConfigFiles;
 import utilities.TestEnvironment;
 
 import java.net.MalformedURLException;
-import java.util.logging.Logger;
 
 public class BaseClass {
     public static WebDriver driver;
-    Logger LOGGER = (Logger) LogManager.getLogger(this.getClass().getName());
+    Logger LOGGER = LogManager.getLogger(this.getClass().getName());
     String testCaseName = String.format("------Test: %s------", this.getClass().getName());
     String endTestCase = String.format("-----Test End: %s-----", this.getClass().getName());
 
