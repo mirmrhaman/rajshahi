@@ -1,149 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-11T22:10:36 EDT" name="test_automation" finished-at="2021-08-11T22:11:08 EDT" duration-ms="32315">
+  <suite started-at="2021-08-20T02:02:44 EDT" name="test_automation" finished-at="2021-08-20T02:02:48 EDT" duration-ms="4075">
     <groups>
     </groups>
-    <test started-at="2021-08-11T22:10:36 EDT" name="mortgage_calculator" finished-at="2021-08-11T22:11:03 EDT" duration-ms="26619">
-      <class name="automation_test.mortgage_calculator.CalculateMonthlyPayment">
-        <test-method is-config="true" signature="browserInitializations()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@3deb2326]" started-at="2021-08-11T22:10:46 EDT" name="browserInitializations" finished-at="2021-08-11T22:10:48 EDT" duration-ms="2434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitializations -->
-        <test-method signature="calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@3deb2326]" started-at="2021-08-11T22:10:48 EDT" name="calculateMonthlyPayment" finished-at="2021-08-11T22:10:51 EDT" duration-ms="2351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calculateMonthlyPayment -->
-        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@3deb2326]" started-at="2021-08-11T22:10:51 EDT" name="testCleanUp" finished-at="2021-08-11T22:10:51 EDT" duration-ms="639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCleanUp -->
-      </class> <!-- automation_test.mortgage_calculator.CalculateMonthlyPayment -->
-      <class name="automation_test.mortgage_calculator.CalculateRates">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@62d363ab]" started-at="2021-08-11T22:10:57 EDT" name="browserInitialization" finished-at="2021-08-11T22:10:59 EDT" duration-ms="2372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="calculateRealApr()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@62d363ab]" started-at="2021-08-11T22:10:59 EDT" name="calculateRealApr" finished-at="2021-08-11T22:11:02 EDT" duration-ms="2886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calculateRealApr -->
-        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@62d363ab]" started-at="2021-08-11T22:11:02 EDT" name="testCleanUp" finished-at="2021-08-11T22:11:03 EDT" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCleanUp -->
-      </class> <!-- automation_test.mortgage_calculator.CalculateRates -->
-      <class name="automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized">
-        <test-method is-config="true" signature="browserInitializations()[pri:0, instance:automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized@e24ddd0]" started-at="2021-08-11T22:10:36 EDT" name="browserInitializations" finished-at="2021-08-11T22:10:40 EDT" duration-ms="3678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitializations -->
-        <test-method signature="calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized@e24ddd0]" started-at="2021-08-11T22:10:40 EDT" name="calculateMonthlyPayment" finished-at="2021-08-11T22:10:45 EDT" duration-ms="5171" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calculateMonthlyPayment -->
-        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized@e24ddd0]" started-at="2021-08-11T22:10:45 EDT" name="testCleanUp" finished-at="2021-08-11T22:10:46 EDT" duration-ms="644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCleanUp -->
-      </class> <!-- automation_test.mortgage_calculator_parameterized.CalculateMonthlyPaymentParameterized -->
-      <class name="automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized@71f67a79]" started-at="2021-08-11T22:10:51 EDT" name="browserInitialization" finished-at="2021-08-11T22:10:53 EDT" duration-ms="2231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="calculateRealApr(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized@71f67a79]" started-at="2021-08-11T22:10:53 EDT" name="calculateRealApr" data-provider="RealAprRates" finished-at="2021-08-11T22:10:56 EDT" duration-ms="2819" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[200000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[15000]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.130%]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calculateRealApr -->
-        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized@71f67a79]" started-at="2021-08-11T22:10:56 EDT" name="testCleanUp" finished-at="2021-08-11T22:10:57 EDT" duration-ms="622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCleanUp -->
-      </class> <!-- automation_test.mortgage_calculator_parameterized.CalculateRates_Parameterized -->
-    </test> <!-- mortgage_calculator -->
-    <test started-at="2021-08-11T22:11:03 EDT" name="PHP_Travel" finished-at="2021-08-11T22:11:05 EDT" duration-ms="2502">
-      <class name="automation_test.php_travel.ValidatePHPTravelWebTitle">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automation_test.php_travel.ValidatePHPTravelWebTitle@4b4dd216]" started-at="2021-08-11T22:11:03 EDT" name="browserInitialization" finished-at="2021-08-11T22:11:05 EDT" duration-ms="1862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyHomePageTitle()[pri:0, instance:automation_test.php_travel.ValidatePHPTravelWebTitle@4b4dd216]" started-at="2021-08-11T22:11:05 EDT" name="verifyHomePageTitle" finished-at="2021-08-11T22:11:05 EDT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomePageTitle -->
-        <test-method is-config="true" signature="testCleanup()[pri:0, instance:automation_test.php_travel.ValidatePHPTravelWebTitle@4b4dd216]" started-at="2021-08-11T22:11:05 EDT" name="testCleanup" finished-at="2021-08-11T22:11:05 EDT" duration-ms="629" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCleanup -->
-      </class> <!-- automation_test.php_travel.ValidatePHPTravelWebTitle -->
-    </test> <!-- PHP_Travel -->
-    <test started-at="2021-08-11T22:11:05 EDT" name="api_test" finished-at="2021-08-11T22:11:08 EDT" duration-ms="3185">
+    <test started-at="2021-08-20T02:02:44 EDT" name="api_test" finished-at="2021-08-20T02:02:48 EDT" duration-ms="4075">
       <class name="api_test.SimplePostTest">
-        <test-method signature="createNewUser()[pri:0, instance:api_test.SimplePostTest@b93aad]" started-at="2021-08-11T22:11:08 EDT" name="createNewUser" finished-at="2021-08-11T22:11:08 EDT" duration-ms="301" status="PASS">
+        <test-method signature="createNewUser()[pri:0, instance:api_test.SimplePostTest@67427b69]" started-at="2021-08-20T02:02:48 EDT" name="createNewUser" finished-at="2021-08-20T02:02:48 EDT" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser -->
       </class> <!-- api_test.SimplePostTest -->
       <class name="api_test.SimpleGetTest">
-        <test-method signature="getALLUsers()[pri:0, instance:api_test.SimpleGetTest@51768776]" started-at="2021-08-11T22:11:07 EDT" name="getALLUsers" finished-at="2021-08-11T22:11:07 EDT" duration-ms="100" status="PASS">
+        <test-method signature="getALLUsers()[pri:0, instance:api_test.SimpleGetTest@70ab80e3]" started-at="2021-08-20T02:02:47 EDT" name="getALLUsers" finished-at="2021-08-20T02:02:47 EDT" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getALLUsers -->
       </class> <!-- api_test.SimpleGetTest -->
       <class name="api_test.SimplePatchTest">
-        <test-method signature="updateUserSingleField()[pri:0, instance:api_test.SimplePatchTest@f31c0c6]" started-at="2021-08-11T22:11:07 EDT" name="updateUserSingleField" finished-at="2021-08-11T22:11:08 EDT" duration-ms="385" status="PASS">
+        <test-method signature="updateUserSingleField()[pri:0, instance:api_test.SimplePatchTest@9573b3b]" started-at="2021-08-20T02:02:47 EDT" name="updateUserSingleField" finished-at="2021-08-20T02:02:48 EDT" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserSingleField -->
       </class> <!-- api_test.SimplePatchTest -->
       <class name="api_test.SimplePutTest">
-        <test-method signature="updateUserFields()[pri:0, instance:api_test.SimplePutTest@4a9419d7]" started-at="2021-08-11T22:11:08 EDT" name="updateUserFields" finished-at="2021-08-11T22:11:08 EDT" duration-ms="316" status="PASS">
+        <test-method signature="updateUserFields()[pri:0, instance:api_test.SimplePutTest@64f857e7]" started-at="2021-08-20T02:02:48 EDT" name="updateUserFields" finished-at="2021-08-20T02:02:48 EDT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserFields -->
       </class> <!-- api_test.SimplePutTest -->
       <class name="api_test.SimpleDeleteTest">
-        <test-method signature="deleteSingleUsers()[pri:0, instance:api_test.SimpleDeleteTest@5a021cb9]" started-at="2021-08-11T22:11:07 EDT" name="deleteSingleUsers" finished-at="2021-08-11T22:11:07 EDT" duration-ms="300" status="PASS">
+        <test-method signature="deleteSingleUsers()[pri:0, instance:api_test.SimpleDeleteTest@ca27722]" started-at="2021-08-20T02:02:47 EDT" name="deleteSingleUsers" finished-at="2021-08-20T02:02:47 EDT" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteSingleUsers -->
       </class> <!-- api_test.SimpleDeleteTest -->
       <class name="api_test.GetTestWithQueryParameter">
-        <test-method signature="getUsersWithQueryParameter()[pri:0, instance:api_test.GetTestWithQueryParameter@2ca47471]" started-at="2021-08-11T22:11:07 EDT" name="getUsersWithQueryParameter" finished-at="2021-08-11T22:11:07 EDT" duration-ms="117" status="PASS">
+        <test-method signature="getUsersWithQueryParameter()[pri:0, instance:api_test.GetTestWithQueryParameter@23a9ba52]" started-at="2021-08-20T02:02:47 EDT" name="getUsersWithQueryParameter" finished-at="2021-08-20T02:02:47 EDT" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersWithQueryParameter -->
       </class> <!-- api_test.GetTestWithQueryParameter -->
       <class name="api_test.GetTestWithPathVariable">
-        <test-method signature="attemptToGetUserWithInvalidId()[pri:0, instance:api_test.GetTestWithPathVariable@fff25f1]" started-at="2021-08-11T22:11:05 EDT" name="attemptToGetUserWithInvalidId" finished-at="2021-08-11T22:11:06 EDT" duration-ms="1118" status="PASS">
+        <test-method signature="attemptToGetUserWithInvalidId()[pri:0, instance:api_test.GetTestWithPathVariable@61edc883]" started-at="2021-08-20T02:02:44 EDT" name="attemptToGetUserWithInvalidId" finished-at="2021-08-20T02:02:46 EDT" duration-ms="1706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attemptToGetUserWithInvalidId -->
-        <test-method signature="getSingleUser()[pri:0, instance:api_test.GetTestWithPathVariable@fff25f1]" started-at="2021-08-11T22:11:06 EDT" name="getSingleUser" finished-at="2021-08-11T22:11:07 EDT" duration-ms="532" status="PASS">
+        <test-method signature="getSingleUser()[pri:0, instance:api_test.GetTestWithPathVariable@61edc883]" started-at="2021-08-20T02:02:46 EDT" name="getSingleUser" finished-at="2021-08-20T02:02:47 EDT" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSingleUser -->
