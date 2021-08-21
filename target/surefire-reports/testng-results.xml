@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-21T18:42:00 EDT" name="test_automation" finished-at="2021-08-21T18:42:02 EDT" duration-ms="2808">
+  <suite started-at="2021-08-21T18:48:15 EDT" name="test_automation" finished-at="2021-08-21T18:48:18 EDT" duration-ms="2708">
     <groups>
     </groups>
-    <test started-at="2021-08-21T18:42:00 EDT" name="selenium_grid" finished-at="2021-08-21T18:42:02 EDT" duration-ms="2808">
+    <test started-at="2021-08-21T18:48:15 EDT" name="selenium_grid" finished-at="2021-08-21T18:48:18 EDT" duration-ms="2708">
       <class name="automation_test.mortgage_calculator.CalculateMonthlyPayment">
-        <test-method is-config="true" signature="browserInitializations()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@452e26d0]" started-at="2021-08-21T18:42:01 EDT" name="browserInitializations" finished-at="2021-08-21T18:42:02 EDT" duration-ms="1084" status="FAIL">
+        <test-method is-config="true" signature="browserInitializations()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@452e26d0]" started-at="2021-08-21T18:48:17 EDT" name="browserInitializations" finished-at="2021-08-21T18:48:18 EDT" duration-ms="1071" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[null value in entry: url=null]]>
@@ -63,11 +63,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitializations -->
-        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@452e26d0]" started-at="2021-08-21T18:42:02 EDT" name="testCleanUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1629585722876" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCleanUp -->
-        <test-method signature="calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@452e26d0]" started-at="2021-08-21T18:42:02 EDT" name="calculateMonthlyPayment" finished-at="2021-08-21T18:42:02 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="calculateMonthlyPayment()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@452e26d0]" started-at="2021-08-21T18:48:18 EDT" name="calculateMonthlyPayment" finished-at="2021-08-21T18:48:18 EDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[null value in entry: url=null]]>
@@ -123,9 +119,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateMonthlyPayment -->
+        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator.CalculateMonthlyPayment@452e26d0]" started-at="2021-08-21T18:48:18 EDT" name="testCleanUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1629586098151" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
       </class> <!-- automation_test.mortgage_calculator.CalculateMonthlyPayment -->
       <class name="automation_test.mortgage_calculator.CalculateRates">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@5cc5b667]" started-at="2021-08-21T18:42:00 EDT" name="browserInitialization" finished-at="2021-08-21T18:42:01 EDT" duration-ms="1549" status="FAIL">
+        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@5cc5b667]" started-at="2021-08-21T18:48:15 EDT" name="browserInitialization" finished-at="2021-08-21T18:48:16 EDT" duration-ms="1467" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[null value in entry: url=null]]>
@@ -181,7 +181,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="calculateRealApr()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@5cc5b667]" started-at="2021-08-21T18:42:01 EDT" name="calculateRealApr" finished-at="2021-08-21T18:42:01 EDT" duration-ms="0" status="SKIP">
+        <test-method signature="calculateRealApr()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@5cc5b667]" started-at="2021-08-21T18:48:17 EDT" name="calculateRealApr" finished-at="2021-08-21T18:48:17 EDT" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[null value in entry: url=null]]>
@@ -237,7 +237,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateRealApr -->
-        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@5cc5b667]" started-at="2021-08-21T18:42:01 EDT" name="testCleanUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1629585721766" status="SKIP">
+        <test-method is-config="true" signature="testCleanUp()[pri:0, instance:automation_test.mortgage_calculator.CalculateRates@5cc5b667]" started-at="2021-08-21T18:48:17 EDT" name="testCleanUp" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1629586097063" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCleanUp -->

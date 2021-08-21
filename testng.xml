@@ -4,7 +4,7 @@
     <test name="selenium_grid">
         <classes>
             <class name="automation_test.mortgage_calculator.CalculateRates"/>
-            <class name="automation_test.mortgage_calculator.CalculateMonthlyPayment"></class>
+            <class name="automation_test.mortgage_calculator.CalculateMonthlyPayment"/>
         </classes>
     </test>
 

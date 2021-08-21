@@ -21,6 +21,9 @@ public class SeleniumGrid_Chrome1 {
         driver.get("https://www.mortgagecalculator.org");
         System.out.println(driver.getTitle());
         driver.quit();
+
+
+        
 //        ChromeOptions chromeOptions = new ChromeOptions();
 //        try {
 //            gridUrl = new URL("http:18.223.116.237:4444/wd/hub");
