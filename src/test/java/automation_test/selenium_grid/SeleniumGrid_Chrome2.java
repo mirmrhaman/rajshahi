@@ -1,4 +1,4 @@
-package selenium_grid;
+package automation_test.selenium_grid;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -15,7 +15,7 @@ public class SeleniumGrid_Chrome2 {
     public void executeInAwsDocker() {
         ChromeOptions chromeOptions = new ChromeOptions();
         try {
-            gridUrl = new URL("http://100.26.182.142:4444/wd/hub");
+            gridUrl = new URL("http:18.223.116.237:4444/wd/hub");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
