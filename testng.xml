@@ -3,8 +3,8 @@
 <suite name="test_automation" verbose="1"> 
     <test name="selenium_grid">
         <classes>
-            <class name="automation_test.mortgage_calculator.CalculateRates"/>
-            <class name="automation_test.mortgage_calculator.CalculateMonthlyPayment"/>
+            <class name="automation_test.selenium_grid.SeleniumGrid_Chrome1"/>
+            <class name="automation_test.selenium_grid.SeleniumGrid_Firefox1"/>
         </classes>
     </test>
 

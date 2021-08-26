@@ -23,9 +23,10 @@ public class TestEnvironment {
         public static WebDriver selectTestExecutionEnvironment() throws MalformedURLException {
             String environment = System.getProperty("environment") == null ? "local" : System.getProperty("environment");
             String browser = System.getProperty("browser") == null ? "chrome" : System.getProperty("browser");
+            String ec2Address = ReadConfigFiles.getPropertyValue("EC2PublicIp");
 
             // Update the GridURL value in the config.properties file if it is needed
-            URL gridUrl = new URL(ReadConfigFiles.getPropertyValue("GridURL"));
+            URL gridUrl = new URL("http://" + ec2Address + ":4444/wd/hub");
             WebDriver driver;
             if (environment.equals("remote") && browser.equals("chrome")) {
                 LOGGER.info("Execute test in remote with chrome browser");
